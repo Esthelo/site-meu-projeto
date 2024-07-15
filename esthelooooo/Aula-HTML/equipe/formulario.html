@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-UA-Compatible" content="IE=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>formulario</h1>
+    <br>
+
+     <form>
+        <!--legenda para nome-->
+        <label for="compo_nome">Nome:</label>
+        <input id="compo_nome" type="text" placeholder="digite seu nome aqui" required>
+        <br><br>
+        
+
+       
+        <!--Legenda para sobrenome-->
+        <label for="campo_sobrenome">sobrenome:</label>
+        <input id="campo_sobrenome" type="text" placeholder="digite seu sobrenome aqui" required>
+        <br><br>
+         <!--legenda para senha-->
+        <label for="caqmpo_senha">senha:</label>
+        <input id="campo_senha" type="password" placeholder="digite uma senha aqui" required>
+        <br><br>
+         <!--legenda para email-->
+        <label for="campo_email">email:</label>
+        <input id="campo_email" type="email" placeholder="digite seu email aqui" required>
+        <br><br>
+
+<!--legenda para esclhar qualquer um, mas o name=nome no titulo precisar ser mesmo nome.-->
+        <h2> Animal de estimação</h2>
+
+        <input type="radio" value="cachorro" name="Animal">
+        <label >cachorro</label>
+
+        <br><br>
+        
+        <input type="radio" value="Gota" name="Animal">
+        <label >Gato</label>
+        <br><br>
+        
+        <input type="radio"  value="passarihno" name="Animal">
+        <label >passarihno</label>
+        <br><br>
+      
+        <h2>Qual forma de pagamento?</h2>
+         
+            <input type="radio" value="credit" name="payment">
+       <label>credito</label> 
+
+        <br><br>
+
+        
+        
+            
+            <input type="radio" value="debit" name="payment">
+            <label> debito</label>
+
+       
+
+        <br><br>
+        
+           
+            <input type="radio" value="money" name="payment">
+        <label> dinheiro</label>
+
+        <br><br>
+        <h2>O que voce tem em casa?</h2>
+
+        <input id="item1" type="checkbox" name="item1" value="geladeira">
+        <label for="item1">geladeira</label>
+
+        <br><br>
+
+        <input id="item2" type="checkbox" name="item2" value="comutador">
+        <label for="item2"> computador</label>
+
+        <br><br>
+
+        <input id="item3" type="checkbox" name="item3" value="tv">
+        <label for="item3">Tv</label>
+        <br>
+        <h2> Escolhar uma cor:</h2>
+        <select>
+            <option selected disabled value="">Seleciona uma cor</option>
+            <option value="vermelho">vermelho</option>
+            <option value="azul">azul</option>
+            <option value="amarelo">amarelo</option>
+            <option value="verde">verde</option>
+
+
+        </select>
+
+    <br><br>
+    <h2>digite um mensagem:</h2>
+<textarea rows="15" cols="35">Um texto de exemplo</textarea>
+
+<br>
+
+
+         <!--legenda para enviar formulario-->
+        <input type="submit" value="enviar formulario">
+        <br><br>
+        <button>Clique aqui</button>
+        <br><br>
+     </form>
+
+</body>
+</html>
